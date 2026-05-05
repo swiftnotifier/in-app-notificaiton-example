@@ -1,0 +1,52 @@
+# dependencies
+node_modules/
+ui/node_modules/
+
+# build outputs
+.next/
+ui/.next/
+out/
+ui/out/
+dist/
+ui/dist/
+build/
+ui/build/
+
+# coverage and test artifacts
+coverage/
+ui/coverage/
+*.lcov
+
+# env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+ui/.env
+ui/.env.local
+ui/.env.development.local
+ui/.env.test.local
+ui/.env.production.local
+!ui/.env.example
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# TypeScript and tooling
+*.tsbuildinfo
+.turbo/
+
+# editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# misc local files
+tmp/
+temp/
